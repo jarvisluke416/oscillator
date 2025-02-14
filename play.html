@@ -22,7 +22,6 @@
     border: solid 1px;
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
-    z-index: 1;
     cursor: pointer;
     transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
   }
@@ -39,9 +38,9 @@
     transform: translateY(-1px);
   }
     </style>
- <input type="button" class="A1" id="play" >
+ <input type="button" class="A1" id="play">
     <script>
-        let synth = new Tone.Synth().toDestination();
+let synth = new Tone.Synth().toDestination();
 let pitch = 440; // Starting pitch value
 let buttonClickCount = 0; // Count of button presses
 let isHolding = false; // Whether button is being held down

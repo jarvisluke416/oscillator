@@ -8,9 +8,18 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/tone@14.8.37/build/Tone.js"></script>
+    <script src="http://unpkg.com/tone"></script>
+   </head>
 <body>
-<div class="piano">
+    <style>
+         html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Removes scrollbars from the page */
+        }
+    </style>
+   <div class="piano">
 <iframe src="play.html" width="29.5" height="147.5" class="A1"></iframe>
 <iframe src="play2.html" width="18" height="95" class="ASBF1"></iframe>
 <iframe src="play3.html" width="29.5" height="147.5" class="B1"></iframe>
@@ -102,6 +111,5 @@
 <iframe src="play87.html" width="29.5" height="147.5" class="B8"></iframe>
 <iframe src="play88.html" width="29.5" height="147.5" class="C8"></iframe>
 </div>
-<script src="play.js"></script>
 </html>
 </body>

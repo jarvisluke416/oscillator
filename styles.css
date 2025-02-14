@@ -1,5 +1,6 @@
 .piano {
     position: relative;
+    top: 200px;
     left: 375px;
     display: flex;
     flex-direction: row;
@@ -7,6 +8,7 @@
   }
 .piano2 {
   position: relative;
+    top: 200px;
     left: 375px;
     display: flex;
     flex-direction: row;
@@ -20,14 +22,13 @@
     border: solid 1px;
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
-    z-index: 1;
     cursor: pointer;
     transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
   }
 
   .ASBF1 {
-    position: absolute;
-    left: 22px;
+    position: fixed;
+    left: 396px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -44,7 +45,6 @@
     border: solid 1px;
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
-    z-index: 1;
     cursor: pointer;
     transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
   }
@@ -62,8 +62,8 @@
   
   
   .CSDF1 {
-    position: absolute;
-    left: 84px;
+    position: fixed;
+    left: 458px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -86,8 +86,8 @@
   
   
   .DSEF1 {
-    position: absolute;
-    left: 115px;
+    position: fixed;
+    left: 490px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -122,8 +122,8 @@
   
   
   .FSGF1 {
-    position: absolute;
-    left: 177px;
+    position: fixed;
+    left: 552px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -146,8 +146,8 @@
   
   
   .GSAF1 {
-    position: absolute;
-    left: 208px;
+    position: fixed;
+    left: 583px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -170,8 +170,8 @@
   
   
   .ASBF2 {
-    position: absolute;
-    left: 240px;
+    position: fixed;
+    left: 615px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -204,8 +204,8 @@
   }
   
   .CSDF2 {
-    position: absolute;
-    left: 302px;
+    position: fixed;
+    left: 676px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -227,8 +227,8 @@
   }
   
   .DSEF2 {
-    position: absolute;
-    left: 332px;
+    position: fixed;
+    left: 707px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -261,8 +261,8 @@
   }
   
   .FSGF2 {
-    position: absolute;
-    left: 394px;
+    position: fixed;
+    left: 769px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -284,8 +284,8 @@
   }
   
   .GSAF2 {
-    position: absolute;
-    left: 425px;
+    position: fixed;
+    left: 801px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -307,8 +307,8 @@
   }
   
   .ASBF3 {
-    position: absolute;
-    left: 457px;
+    position: fixed;
+    left: 832px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -341,8 +341,8 @@
   }
   
   .CSDF3 {
-    position: absolute;
-    left: 519px;
+    position: fixed;
+    left: 894px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -364,8 +364,8 @@
   }
   
   .DSEF3 {
-    position: absolute;
-    left: 550px;
+    position: fixed;
+    left: 925px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -398,8 +398,8 @@
   }
   
   .FSGF3 {
-    position: absolute;
-    left: 612px;
+    position: fixed;
+    left: 986px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -421,8 +421,8 @@
   }
   
   .GSAF3 {
-    position: absolute;
-    left: 644px;
+    position: fixed;
+    left: 1018px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -444,8 +444,8 @@
   }
   
   .ASBF4 {
-    position: absolute;
-    left: 674px;
+    position: fixed;
+    left: 1049px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -478,8 +478,8 @@
   }
   
 .CSDF4 {
-    position: absolute;
-    left: 736px;
+    position: fixed;
+    left: 1112px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -501,8 +501,8 @@
   }
   
   .DSEF4 {
-    position: absolute;
-    left: 768px;
+    position: fixed;
+    left: 1143px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -535,8 +535,8 @@
   }
   
   .FSGF4 {
-    position: absolute;
-    left: 22px;
+    position: fixed;
+    left: 397px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -558,8 +558,8 @@
   }
   
   .GSAF4 {
-    position: absolute;
-    left: 53px;
+    position: fixed;
+    left: 428px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -581,8 +581,8 @@
   }
   
   .ASBF5 {
-    position: absolute;
-    left: 84px;
+    position: fixed;
+    left: 458px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -615,8 +615,8 @@
   }
   
   .CSDF5 {
-    position: absolute;
-    left: 145px;
+    position: fixed;
+    left: 521px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -638,8 +638,8 @@
   }
   
   .DSEF5 {
-    position: absolute;
-    left: 177px;
+    position: fixed;
+    left: 552px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -672,8 +672,8 @@
   }
   
   .FSGF5 {
-    position: absolute;
-    left: 239px;
+    position: fixed;
+    left: 616px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -695,8 +695,8 @@
   }
   
   .GSAF5 {
-    position: absolute;
-    left: 270px;
+    position: fixed;
+    left: 645px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -718,8 +718,8 @@
   }
   
   .ASBF6 {
-    position: absolute;
-    left: 301px;
+    position: fixed;
+    left: 676px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -752,8 +752,8 @@
   }
   
   .CSDF6 {
-    position: absolute;
-    left: 363px;
+    position: fixed;
+    left: 738px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -775,8 +775,8 @@
   }
   
   .DSEF6 {
-    position: absolute;
-    left: 394px;
+    position: fixed;
+    left: 770px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -809,8 +809,8 @@
   }
   
   .FSGF6 {
-    position: absolute;
-    left: 456px;
+    position: fixed;
+    left: 832px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -832,8 +832,8 @@
   }
   
   .GSAF6 {
-    position: absolute;
-    left: 488px;
+    position: fixed;
+    left: 863px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -855,8 +855,8 @@
   }
   
   .ASBF7 {
-    position: absolute;
-    left: 520px;
+    position: fixed;
+    left: 896px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -889,8 +889,8 @@
   }
   
   .CSDF7 {
-    position: absolute;
-    left: 581px;
+    position: fixed;
+    left: 955px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -911,10 +911,9 @@
     transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
   }
   
-  
   .DSEF7 {
-    position: absolute;
-    left: 612px;
+    position: fixed;
+    left: 987px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -947,8 +946,8 @@
   }
   
   .FSGF7 {
-    position: absolute;
-    left: 674px;
+    position: fixed;
+    left: 1049px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -970,8 +969,8 @@
   }
   
   .GSAF7 {
-    position: absolute;
-    left: 706px;
+    position: fixed;
+    left: 1081px;
     background-color: black;
     height: 95px;
     width: 18px;
@@ -993,8 +992,8 @@
   }
   
   .ASBF8 {
-    position: absolute;
-    left: 737px;
+    position: fixed;
+    left: 1112px;
     background-color: black;
     height: 95px;
     width: 18px;

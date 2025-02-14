@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://unpkg.com/tone"></script>
+    <title>play</title>
+</head>
+<body>
+    <style>
+      html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Removes scrollbars from the page */
+        }
+        .D3 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  .D3:active {
+    background-color: lightgray;  
+    transform: translateY(4px);   
+    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  .D3:hover {
+    background-color: #bbb; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-1px);
+  }
+    </style>
+<input type="button" class="D3" id="play30" >
+    <script>
+        let synth = new Tone.Synth().toDestination();
+let pitch = 440; // Starting pitch value
+let buttonClickCount = 0; // Count of button presses
+let isHolding = false; // Whether button is being held down
+let buttonHoldInterval; // Interval for continuous button hold
+
+function startAudioContext() {
+  Tone.start().then(() => {
+    console.log('Tone.js audio context started');
+  }).catch(err => {
+    console.error('Failed to start Tone.js audio context:', err);
+  });
+}
+document.getElementById('play30').addEventListener('mousedown', startAudioContext);
+document.getElementById('play30').addEventListener('touchstart', startAudioContext);
+
+function playSound() {
+  synth.triggerAttack(pitch);
+}
+
+function stopSound() {
+  synth.triggerRelease();
+}
+
+function increasePitch() {
+  pitch = 290 + buttonClickCount * 2;
+  buttonClickCount++;
+}
+
+document.getElementById('play30').addEventListener('mousedown', startHolding);
+document.getElementById('play30').addEventListener('mouseup', stopHolding);
+document.getElementById('play30').addEventListener('mouseleave', stopHolding);
+
+document.getElementById('play30').addEventListener('touchstart', startHolding);
+document.getElementById('play30').addEventListener('touchend', stopHolding);
+document.getElementById('play30').addEventListener('touchcancel', stopHolding);
+
+function startHolding() {
+  if (!isHolding) {
+    buttonClickCount = 0;
+    pitch = 0;
+    playSound();
+    isHolding = true;
+    buttonHoldInterval = setInterval(() => {
+      increasePitch();
+      playSound();
+    }, 100);
+  }
+}
+
+function stopHolding() {
+  stopSound();
+  clearInterval(buttonHoldInterval);
+  pitch = 0;
+  buttonClickCount = 0;
+  isHolding = false;
+  state = 'stopped'; 
+}
+
+document.addEventListener('keydown', function (event) {
+  if (event.key === 'i' && !isHolding)
+  {
+    buttonClickCount = 0;
+    pitch = 0;
+    playSound();
+    isHolding = true;
+    buttonHoldInterval = setInterval(() => {
+      increasePitch();
+      playSound();
+    }, 100);
+    document.getElementById('play30').classList.add('pressed');
+  }
+});
+
+document.addEventListener('keyup', function (event) {
+  if (event.key === 'i') {
+    stopSound();
+    clearInterval(buttonHoldInterval);
+    pitch = 0;
+    buttonClickCount = 0;
+    isHolding = false;
+    document.getElementById('play30').classList.remove('pressed');effect;
+  }
+});
+    </script>
+     
+</body>
+</html>

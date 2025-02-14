@@ -1,0 +1,1392 @@
+.piano {
+    position: relative;
+    left: 375px;
+    display: flex;
+    flex-direction: row;
+    
+  }
+.piano2 {
+  position: relative;
+    left: 375px;
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+.A1 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    z-index: 1;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+
+  .ASBF1 {
+    position: absolute;
+    left: 22px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+   .B1 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    z-index: 1;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .C1 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  
+  .CSDF1 {
+    position: absolute;
+    left: 84px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .D1 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  
+  .DSEF1 {
+    position: absolute;
+    left: 115px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .E1 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+ 
+  .F1 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  
+  .FSGF1 {
+    position: absolute;
+    left: 177px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .G1 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  
+  .GSAF1 {
+    position: absolute;
+    left: 208px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .A2 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  
+  .ASBF2 {
+    position: absolute;
+    left: 240px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .B2 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .C2 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .CSDF2 {
+    position: absolute;
+    left: 302px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;  
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .D2 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .DSEF2 {
+    position: absolute;
+    left: 332px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .E2 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .F2 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .FSGF2 {
+    position: absolute;
+    left: 394px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .G2 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .GSAF2 {
+    position: absolute;
+    left: 425px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .A3 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .ASBF3 {
+    position: absolute;
+    left: 457px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .B3 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .C3 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .CSDF3 {
+    position: absolute;
+    left: 519px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .D3 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .DSEF3 {
+    position: absolute;
+    left: 550px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .E3 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .F3 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .FSGF3 {
+    position: absolute;
+    left: 612px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .G3 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .GSAF3 {
+    position: absolute;
+    left: 644px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .A4 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .ASBF4 {
+    position: absolute;
+    left: 674px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .B4 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .C4 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+.CSDF4 {
+    position: absolute;
+    left: 736px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .D4 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .DSEF4 {
+    position: absolute;
+    left: 768px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .E4 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .F4 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .FSGF4 {
+    position: absolute;
+    left: 22px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .G4 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .GSAF4 {
+    position: absolute;
+    left: 53px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .A5 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .ASBF5 {
+    position: absolute;
+    left: 84px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .B5 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .C5 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .CSDF5 {
+    position: absolute;
+    left: 145px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .D5 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .DSEF5 {
+    position: absolute;
+    left: 177px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .E5 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .F5 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .FSGF5 {
+    position: absolute;
+    left: 239px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .G5 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .GSAF5 {
+    position: absolute;
+    left: 270px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .A6 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .ASBF6 {
+    position: absolute;
+    left: 301px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .B6 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .C6 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .CSDF6 {
+    position: absolute;
+    left: 363px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .D6 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .DSEF6 {
+    position: absolute;
+    left: 394px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .E6 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .F6 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .FSGF6 {
+    position: absolute;
+    left: 456px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .G6 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .GSAF6 {
+    position: absolute;
+    left: 488px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .A7 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .ASBF7 {
+    position: absolute;
+    left: 520px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .B7 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .C7 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .CSDF7 {
+    position: absolute;
+    left: 581px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .D7 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  
+  .DSEF7 {
+    position: absolute;
+    left: 612px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .E7 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .F7 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .FSGF7 {
+    position: absolute;
+    left: 674px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .G7 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+  cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .GSAF7 {
+    position: absolute;
+    left: 706px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .A8 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .ASBF8 {
+    position: absolute;
+    left: 737px;
+    background-color: black;
+    height: 95px;
+    width: 18px;
+    border: solid 1px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .B8 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  .C8 {
+    background-color: oldlace;
+    height: 147.5px;
+    width: 29.5px;
+    border: solid 1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  }
+  
+  #play.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play2.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play3.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play4.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play5.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play6.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play7.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play8.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play9.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play10.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play11.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play12.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play13.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play14.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play15.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play16.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play17.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play18.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play19.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play20.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play21.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play22.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play23.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play24.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play25.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play26.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play27.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play28.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play29.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play30.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play31.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play32.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play33.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play34.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play35.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play36.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play37.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play38.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play39.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play40.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play41.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play42.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play43.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play44.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play45.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play46.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play47.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play48.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play49.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play50.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play51.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play52.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play53.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play54.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play55.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play56.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play57.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play58.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play59.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play60.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play61.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play62.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play63.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play64.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play65.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play66.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play67.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play68.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play69.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play70.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play71.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play72.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play73.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play74.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play75.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play76.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play77.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play78.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play79.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play80.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play81.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play82.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play83.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play84.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play85.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play86.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play87.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+  #play88.pressed {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+@media (max-width: 600px) {
+  /* Modify layout for smaller screens */
+  .key {
+    width: 40px;
+    height: 100px;
+  }
+}
+h1 {
+  position: relative;
+  top: 400px;
+}
+
